@@ -1,0 +1,98 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+#Personal {
+    background-color: #e2f1ff;
+    padding: 15px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+#Personal p {
+    font-size: 16px;
+    margin: 5px 0;
+}
+
+#Qualifications {
+    background-color: #dff7e1;
+    padding: 15px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+#Qualifications h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+#Qualifications p {
+    font-size: 16px;
+    margin: 5px 0;
+}
+
+#Projects {
+    background-color: #fbeed7;
+    padding: 15px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+#Projects h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+#Projects p {
+    font-size: 16px;
+    margin: 5px 0;
+}
+
+/* ExtraCurricular Section */
+#ExtraCuricuclar {
+    background-color: #fde8e8;
+    padding: 15px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+#ExtraCuricuclar h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+#ExtraCuricuclar p {
+    font-size: 16px;
+    margin: 5px 0;
+}
+
+/* Hobbies Section */
+#Hobbies {
+    background-color: #ffeb99;
+    padding: 15px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+#Hobbies h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+#Hobbies p {
+    font-size: 16px;
+    margin: 5px 0;
+}
+
+h2 {
+    color: #2c3e50;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+p {
+    line-height: 1.6;
+}
