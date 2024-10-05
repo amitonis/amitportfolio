@@ -1,40 +1,67 @@
 <html>
     <head>
         <link rel="stylesheet" href="style.css">
-    </head>
+        <link href="https://cdn.fontshare.com/css?f[]=aileron@1&display=swap" rel="stylesheet">
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet">
+    </head>    
     <body>
-        <div id="Personal">
-            <p>Name: Amit Manoranjan Udayar </p>
-            <p>Age: 19</p>
-            <p>Email:amitmanoranjan2905@gmail.com</p>
-        </div>
-        <br>
-        <div id="Qualifications">
-            <h2>Qualifications</h1>
-            <p>10th:80%</p>
-            <p>12th:78%</p>
-            <p>Btech:9.1 cgpa</p>
-            <p>Languages:C ,C++ ,Java ,Python,NoSql ,HTML ,CSS ,JavaScript </p>
-        </div>
-        <div>Projects
-            <h2>My Projects</h2>
-            <p>Music Web Player </p>
-            <p>Black Jack Simiulation</p>
-            <p>.......</p>
-        </div>
-        <div id="ExtraCuricuclar">
-            <h2>ExtraCuricuclar</h2>
-            <p>Club Coordinator for game development club</p>
-            <p>Many prize won at IOT club </p>
-        </div>
-        <div id="Hobbies">
-            <h2>Hobbies</h2>
-            <p>Football</p>
-            <p>Games</p>
-            <p>MMA</p>
-            <p>Music</p>
-            <p>Production</p>
+        <nav>
+            <ul>
+                <li><a href="#Personal">Personal Info</a></li>
+                <li><a href="#Qualifications">Qualifications</a></li>
+                <li><a href="#Projects">Projects</a></li>
+                <li><a href="#ExtraCuricuclar">Extracurricular</a></li>
+                <li><a href="#Hobbies">Hobbies</a></li>
+            </ul>
+        </nav>
+
+        <div id="Personal" class="section credentials">
+            <h2>Personal Information</h2>
+            <p><i class="fas fa-user"></i> <strong>Name:</strong> Amit Manoranjan Udayar</p>
+            <p><i class="fas fa-birthday-cake"></i> <strong>Age:</strong> 19</p>
+            <p><i class="fas fa-envelope"></i> <strong>Email:</strong> amitmanoranjan2905@gmail.com</p>
+            
+            <!-- Social Links Section -->
+            <div class="social-links">
+                <a href="https://www.linkedin.com/in/amitmanoranjan/" target="_blank" class="social-link"><i class="fab fa-linkedin"></i> LinkedIn</a>
+                <a href="https://github.com/amitmanoranjan" target="_blank" class="social-link"><i class="fab fa-github"></i> GitHub</a>
+            </div>
         </div>
 
+        <div id="Qualifications" class="section credentials">
+            <h2>Qualifications</h2>
+            <div class="qualification">
+                <p><i class="fas fa-graduation-cap"></i> <strong>10th:</strong> 80%</p>
+                <p><i class="fas fa-graduation-cap"></i> <strong>12th:</strong> 78%</p>
+                <p><i class="fas fa-university"></i> <strong>Btech:</strong> 9.1 CGPA</p>
+            </div>
+            <div class="skills">
+                <h3><i class="fas fa-code"></i> Languages:</h3>
+                <p>C, C++, Java, Python, NoSql, HTML, CSS, JavaScript</p>
+            </div>
+        </div>
+
+        <div id="Projects" class="section">
+            <h2>My Projects</h2>
+            <p><i class="fas fa-music"></i> <strong>Music Web Player</strong></p>
+            <p><i class="fas fa-gamepad"></i> <strong>Black Jack Simulation</strong></p>
+        </div>
+
+        <div id="ExtraCuricuclar" class="section">
+            <h2>Extracurricular</h2>
+            <p><i class="fas fa-trophy"></i> Club Coordinator for Game Development Club</p>
+            <p><i class="fas fa-award"></i> Many prizes won at IoT Club</p>
+        </div>
+
+        <div id="Hobbies" class="section">
+            <h2>Hobbies</h2>
+            <p><i class="fas fa-futbol"></i> Football</p>
+            <p><i class="fas fa-gamepad"></i> Games</p>
+            <p><i class="fas fa-hand-rock"></i> MMA</p>
+            <p><i class="fas fa-music"></i> Music</p>
+            <p><i class="fas fa-headphones"></i> Production</p>
+        </div>
+
+        <script src="script.js"></script>
     </body>
 </html>
