@@ -63,7 +63,6 @@ nav ul li a:hover {
     transform: translateY(0);
 }
 
-/* Personal Information */
 #Personal {
     background-color: #e2f1ff;
     padding: 25px;
@@ -87,7 +86,6 @@ nav ul li a:hover {
     color: #3498db;
 }
 
-/* Qualifications */
 #Qualifications {
     background-color: #dff7e1;
     padding: 25px;
@@ -110,7 +108,6 @@ nav ul li a:hover {
     color: #27ae60;
 }
 
-/* Projects */
 #Projects {
     background-color: #fbeed7;
     padding: 25px;
@@ -133,7 +130,6 @@ nav ul li a:hover {
     color: #f39c12;
 }
 
-/* ExtraCurricular */
 #ExtraCuricuclar {
     background-color: #fde8e8;
     padding: 25px;
@@ -156,7 +152,6 @@ nav ul li a:hover {
     color: #e74c3c;
 }
 
-/* Hobbies */
 #Hobbies {
     background-color: #ffeb99;
     padding: 25px;
@@ -179,7 +174,6 @@ nav ul li a:hover {
     color: #f1c40f;
 }
 
-/* Social Links */
 .social-links {
     margin-top: 20px;
 }
@@ -205,7 +199,6 @@ nav ul li a:hover {
     margin-right: 8px;
 }
 
-/* Skills */
 .skills {
     margin-top: 20px;
 }
@@ -215,7 +208,6 @@ nav ul li a:hover {
     font-size: 18px;
 }
 
-/* Responsive Styles */
 @media (max-width: 768px) {
     nav ul {
         flex-direction: column;
